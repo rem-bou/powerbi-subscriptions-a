@@ -1,0 +1,4 @@
+title,recipients,send_time,param:Region,param:Month
+Sales - North,alice@contoso.com;bob@contoso.com,8:30,N|North,@default
+Sales - South,carol@contoso.com,8:45,S|South,@default
+Sales - All regions,,9:00,N|North;S|South,1/31/2026 12:00:00 AM|Jan-2026

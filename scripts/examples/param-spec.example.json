@@ -1,0 +1,23 @@
+{
+  "set": [
+    {
+      "after": "Month",
+      "param": {
+        "name": "Format", "dataType": "String", "prompt": "Layout",
+        "visible": true, "useDefaultValue": false, "valueType": "Static",
+        "queryReference": null,
+        "values": [{"label": "Detailed", "value": "D"}]
+      }
+    },
+    {
+      "after": "Format",
+      "param": {
+        "name": "Lookback_Months", "dataType": "Integer", "prompt": "Months of History",
+        "visible": false, "useDefaultValue": true, "valueType": "Static",
+        "queryReference": null,
+        "values": [{"label": "12", "value": "12"}]
+      }
+    }
+  ],
+  "refresh": ["Region"]
+}
